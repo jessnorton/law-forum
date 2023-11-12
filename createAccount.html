@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="createAccount.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+<!--Navigation bar-->
+<div id="nav-placeholder"></div>
+
+<script>
+    $("#nav-placeholder").load("nav.html");
+</script>
+
+<!--Create Account Form-->
+<div class="createaccountbox">
+    <!--Title-->
+    <h1>Create an Account</h1>
+    <form>
+        <!--user enters first name-->
+        <div style="float:left">
+            <p>First Name</p>
+            <label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </label>
+        </div>
+
+        <!--user enters last name-->
+        <div style="float:right">
+            <p>Last Name</p>
+            <label>
+                <input type="text" name="lastName" placeholder="Enter last name">
+            </label>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        <!--New Line-->
+
+        <!--user enters email-->
+        <p>Email</p>
+        <label>
+            <input type="text" name="email" placeholder="email@gmail.com">
+        </label>
+        <div style="clear:both;">&nbsp;</div>
+        <!--New Line-->
+
+        <!--user enters username-->
+        <p>Username</p>
+        <label>
+            <input type="text" name="username" placeholder="Create username">
+        </label>
+        <div style="clear:both;">&nbsp;</div>
+        <!--New Line-->
+
+        <!--user enters password-->
+        <p>Password</p>
+        <label>
+            <input type="password" name="password" placeholder="Create password">
+        </label>
+
+        <!--multiple choice where user chooses their current status in the law field-->
+        <label>
+            <input type="radio" name="status" value="Pre-Law Student">
+        </label><label>Student</label>
+        <label>
+            <input type="radio" name="status" value="Law Student">
+        </label><label>Law Student</label>
+        <label>
+            <input type="radio" name="status" value="Lawyer">
+        </label><label>Lawyer</label>
+        <label>
+            <input type="radio" name="status" value="Other">
+        </label><label>Other</label>
+
+        <!--Submit Button-->
+        <input type="submit" name="status" value="Create Account">
+    </form>
+</div>
+
+<footer>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $("#footer-placeholder").load("footer.html");
+    </script>
+
+</footer>
+</body>
+</html>

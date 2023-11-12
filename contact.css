@@ -1,0 +1,89 @@
+/* Header Tags */
+h1 {
+    margin-bottom: 50px; /* increases space below header text */
+    font-size: 38px;
+    text-align: center; /* header text is centered */
+    font-family: "Cambria Math", serif;
+}
+
+
+/* Contact Information Box */
+.contactBox {
+    width: 80%;
+    height: 70%;
+    background: whitesmoke; /* information box has an off-white background color */
+    color: black;
+    /* box is centered */
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 70px; /* space in between text and outline of box */
+    box-shadow: 0 0 7px black; /* information box has shadow around it */
+    font-family: "Cambria Math", serif;
+}
+
+/* Contact Information Box Paragraphs */
+.contactBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Cambria Math", serif;
+}
+
+/* Contact Information Box Text */
+.contactBox input, button {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Cambria Math", serif;
+}
+
+/* Contact Information Box User Input Text*/
+.contactBox input[type="text"] {
+    border: none;
+    border-bottom: 1px solid black; /* input box has only a bottom border */
+    background: transparent; /* background of input box is transparent */
+    outline: none; /* input box has no outline */
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-family: "Cambria Math", serif;
+}
+
+/* Contact Information Box Submit Button*/
+.contactBox button {
+    border: none; /* the submit button has no border */
+    outline: none; /* the submit button has no outline */
+    height: 40px;
+    background: dodgerblue; /* the submit button is blue */
+    color: black;
+    font-size: 18px;
+    border-radius: 20px; /* the submit button is rounded */
+    font-family: "Cambria Math", serif;
+}
+
+.contactBox button:hover {
+    cursor: pointer; /* cursor turns into a pointing hand when hovering */
+    background: #1e78ff; /* when hovering the button turns darker blue */
+}
+
+/* All Text */
+#parent {
+    white-space: nowrap; /* collapses white space between text elements */
+    overflow: hidden;
+}
+
+/* Left Side Text */
+.child1 {
+    display: inline-block; /* text is in the same line with other text elements */
+    width: 50%; /* text only takes up 50% of contact box space */
+}
+
+/* Right Side Text */
+.child2 {
+    display: inline-block; /* text is in the same line with other text elements */
+    width: 50%; /* text only takes up 50% of contact box space */
+    text-align: center; /* text on the right of the information box is centered */
+}

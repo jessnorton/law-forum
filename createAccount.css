@@ -1,0 +1,90 @@
+/* Header Tags */
+h1 {
+    margin: 0;
+    padding: 0 0 35px 0; /* space below header set to 35px */
+    text-align: center; /* header text is centered */
+    font-size: 28px;
+    font-family: "Cambria Math", serif;
+}
+
+/* Create Account Box */
+.createaccountbox {
+    width: 600px;
+    height: 550px;
+    background: whitesmoke; /* background color of create account box is off-white */
+    color: black;
+    /* create account box is centered */
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 60px; /* space between text and outline of create account box */
+    box-shadow: 0 0 7px black; /* create account box has a shadow around it */
+    font-family: "Cambria Math", serif;
+}
+
+/* Create Account Box Paragraphs */
+.createaccountbox p {
+    padding: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Cambria Math", serif;
+}
+
+/* Create Account Box Text Input */
+.createaccountbox input {
+    width: 100%;
+    margin: 0;
+    font-family: "Cambria Math", serif;
+}
+
+/* Create Account Box Multiple Choice */
+.createaccountbox input[type="radio"] {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    margin-block: 30px;
+    width: 20px;
+}
+
+/* Create Account Box Input Labels */
+.createaccountbox label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Create Account Box User Input */
+.createaccountbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid black; /* input box only has bottom border */
+    background: transparent; /* input box background is transparent */
+    outline: none; /* input box has no outline */
+    height: 25px;
+    color: black;
+    font-size: 16px;
+    font-family: "Cambria Math", serif;
+}
+
+/* Create Account Box Submit Button */
+.createaccountbox input[type="submit"] {
+    border: none; /* submit button has no border */
+    outline: none; /* submit button has no outline */
+    height: 40px;
+    background: dodgerblue; /* submit button color is blue */
+    color: black;
+    font-size: 18px;
+    border-radius: 20px; /* submit button is rounded */
+    font-family: "Cambria Math", serif;
+    margin-top: 10px; /* space above submit button is 10px */
+}
+
+.createaccountbox input[type="submit"]:hover {
+    cursor: pointer;
+    /* when hovering over submit button the cursor
+       turns to a pointing hand */
+    background: #1e78ff;
+    /* when hovering over submit button the button
+       changes to a darker blue */
+}

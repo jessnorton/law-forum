@@ -1,0 +1,34 @@
+.background-img {
+    /* Set background image opacity to 50% */
+    opacity: 50%;
+}
+
+body {
+    /* Hide scrollbar */
+    overflow: hidden;
+}
+
+.missionStatement {
+    width: 85%;
+    max-height: 80%;
+    overflow: hidden;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px; /* adds space between text and mission statement box outline */
+    box-shadow: 0 0 7px black; /* adds shadow around mission statement box */
+    font-family: "Cambria Math", serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0 0 60px 0;
+}
+
+p, h2 {
+    color: black;
+    font-size: 37px;
+}

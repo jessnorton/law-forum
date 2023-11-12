@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #5d4954;
+    min-height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a, .footer-links li {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+    font-family: "Cambria Math";
+    margin: 10px 15px;
+}
+
+.footer-links a:hover {
+    color: lightgray;
+}

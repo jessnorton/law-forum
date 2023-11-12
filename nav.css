@@ -1,0 +1,59 @@
+/*
+To implement this navigation bar I used methods from the following YouTube video.
+Author: developedbyed
+Title: Responsive Navigation Bar Tutorial | HTML CSS JAVASCRIPT
+Publication Date: Aug 29, 2018
+Date Accessed: Oct 1, 2022
+URL: https://www.youtube.com/watch?v=gXkqy0b4M5g
+Explanation of Code: The code styles the navigation bar through the class "logo" for
+the title of the website and the class "nav-links" for the additional three pages.
+Features I used from the video such as "display: flex" and "justify-content: space-around"
+perform automatic spacing of the elements on the nav bar.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5d4954;
+}
+
+.logo a {
+    color: floralwhite;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-family: "Cambria Math";
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    font-weight: 700;
+    margin: 0 25px;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Cambria Math";
+}
+
+.nav-links a:hover {
+    /*padding-bottom: 5px;*/
+    box-shadow: inset 0 -2px 0 0 #fff;
+    color: antiquewhite;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="contact.css" rel="stylesheet" type="text/css"/>
+    <script src="contact.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<header>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+</header>
+
+<script>
+    $("#nav-placeholder").load("nav.html");
+</script>
+
+<main>
+    <!--Contact Information Box-->
+    <div class="contactBox">
+
+        <!--Title-->
+        <h1>Contact Info</h1>
+
+        <!--div with "parent" id contains all text in the information box
+        div with "child1" id contains text on the left side of the information box
+        div with "child2 id contains text on the right side of the information box-->
+        <div id="parent">
+            <!--form for user to email website-->
+            <form id="contact">
+                <div class="child1">
+                    <!--user enters first name-->
+                    <p>First Name</p>
+                    <label> <input type="text" name="firstName" placeholder="Enter first name" required> </label>
+                </div>
+                <!--client's name-->
+                <div class="child2"><h2>Devin Joseph</h2></div>
+                <div style="clear:both;">&nbsp;</div>
+
+                <!--user enters last name-->
+                <div class="child1">
+                    <p>Last Name</p>
+                    <label> <input type="text" name="lastName" placeholder="Enter last name" required> </label>
+                </div>
+                <!--client info-->
+                <div class="child2"><h2>Major in Political Science, Minor in Legal Studies</h2></div>
+                <div style="clear:both;">&nbsp;</div>
+
+                <!--user enters email-->
+                <div class="child1">
+                    <p>Email</p>
+                    <label> <input type="text" name="email" placeholder="email@gmail.com" required> </label>
+                </div>
+
+                <!--client info-->
+                <div class="child2"><h2>Member of Pre-Law Society at UNCC</h2></div>
+                <div style="clear:both;">&nbsp;</div>
+
+                <!--user enters message-->
+                <div class="child1">
+                    <p>Message</p>
+                    <label> <input type="text" name="message" placeholder="Write message here" required> </label>
+                </div>
+
+                <!--client's email-->
+                <div class="child2"><h2>Email: djosep11@uncc.edu</h2></div>
+                <div style="clear:both;">&nbsp;</div>
+
+                <!--submit button for form-->
+                <div class="child1">
+                    <button id="contactUs">Contact Us</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $("#footer-placeholder").load("footer.html");
+    </script>
+
+</footer>
+
+</html>

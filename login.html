@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="login.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<header>
+    <!--Navigation Bar-->
+    <div id="nav-placeholder"></div>
+
+    <script>
+        $("#nav-placeholder").load("nav.html");
+    </script>
+</header>
+
+<main>
+    <!--Background Image-->
+    <img src="building.jpg" class="background-img" alt="">
+    <!--login box created with div element-->
+    <div class="loginBox">
+        <!--default profile picture-->
+        <img src="Default_pfp.jpg" class="pfp" alt="">
+
+        <!--form for user login information-->
+        <h1>Login Here</h1>
+        <form>
+            <p>Username</p>
+            <label>
+                <input type="text" name="username" placeholder="Enter username">
+            </label>
+            <p>Password</p>
+            <label>
+                <input type="password" name="password" placeholder="Enter password">
+            </label>
+            <button id="login">Login</button><br>
+
+            <!--links to forgot password and create account pages-->
+            <a href="forgotPassword.html">Forgot Password?</a><br>
+            <a href="createAccount.html">Create Account</a>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $("#footer-placeholder").load("footer.html");
+    </script>
+</footer>
+</html>
